@@ -2,22 +2,134 @@
 <html lang="eng">
     <head>
         <title>
-            Hello
+            Linked Us
         </title>
         
         <style>
-            .Top{
-                background-color: bisque;
+            @font-face {
+                font-family:dmSans;
+                src: url(fonts/DM_Sans/DMSans-Medium.ttf);
             }
+
+            @font-face {
+                font-family:dmSans_small;
+                src: url(fonts/DM_Sans/DMSans-Regular.ttf);
+            }
+            body{
+                    background-color:azure;
+                    
+            }  
+            
+            .Top{
+               
+                position:absolute;
+                margin-top:18%;
+                margin-left:6%;
+                font-family:dmSans;
+                font-size: 60px;
+                color:rgba(14, 11, 11, 0.621);
+                
+            }
+
+            .inside{
+                font-family:dmSans_small;
+                font-size: 20px;
+                margin-top: 30px;
+                color: rgba(30, 29, 29, 0.432);
+                
+            }
+
+            .image{
+                position: absolute;
+                background-image:url("Landing page.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left:60%;
+                margin-top:7%;
+                height:550px;;
+                width:650px;
+                
+            }
+            .navigationbar{
+                font-family: dmSans_small;
+                font-size:22px;
+                display: flex;
+                gap:70px;
+                margin-left:66%;
+                margin-top:30px;
+                color:rgba(14, 11, 11, 0.621);
+            }
+
+            .navbutton{
+                margin-left:93%;
+                margin-top:-30px;
+            }
+
+            .circle{
+                position:absolute;
+                width:80px;
+                height:80px;
+                border-radius: 50%;
+                background-color: black;
+                margin-top: -40px;
+                margin-left:6%;   
+                
+            }
+
+            .LetsBegin{
+                margin-top:480px;
+                border-radius: 30px;
+                margin-left:90px;
+                height:40px;
+                width:150px;
+                background-color: rgba(44, 44, 225, 0.683);
+                border-width:2px;
+                font-size: 17px;
+                font-family:dmSans_small;
+                color:rgba(20, 19, 19, 0.82);
+                
+                
+            }
+
         </style>
     </head>
 
     <body>
         <div class="Top">
-            <h1>Welcome To Theeee Journey
-                We cant enjoyy
-            </h1>
-            Hello World! welcome to coding world
+            <div>
+                Get Job And Internship 
+            </div>
+            <div>
+                With Just One Click
+            </div>
+            <div class="inside">
+                The jobs and internship opportunity of your field of interest in
+                your fingertips. 
+            </div>
         </div>
+
+        <div class="image"></div>
     </body>
-</html>
+
+
+    <div class="navigationbar">
+        <div class="home">Login</div>
+        <div class="home">Contact</div>
+        <div class="home">AboutUs</div>
+    </div>
+
+    <div class="navbutton">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
+        <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    </div>
+
+
+    <div class="circle">
+        <!-- background-image:url("") -->
+    </div>
+    
+        <button type="button" class="LetsBegin" >Lets Start</button>
+   
+
+    </html>
